@@ -13,13 +13,13 @@
 <body>
   <div class="container-fluid mt-5">
     <!--Header del proyecto-->
-    <div class="row">
-      <div class="col-9 d-flex d-inline">
-        <i class="fa-brands fa-instagram fs-3 me-1"></i>
+    <di class="d-flex justify-content-between">
+      <div class="d-flex">
+        <i class="fa-brands fa-instagram fs-3"></i>
         <h4>Instagram</h4>
       </div>
-      <div class="col-3 d-flex d-inline m-0">
-        <button type="button" class="btn btn-primary bg-success text-white border-white rounded p-2 ms-150 me-5"
+      <div class=" d-flex">
+        <button type="button" class="btn btn-primary bg-success text-white border-white rounded p-2"
           data-bs-toggle="modal" data-bs-target="#myModal">Create a new post</button>
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -41,9 +41,10 @@
               </div>
             </div>
           </div>
+
         </div>
         <!--DropDown-->
-        <div class="dropdown me-0">
+        <div class="dropdown ms-2">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa-solid fa-gear"></i>
@@ -56,7 +57,8 @@
           </div>
         </div>
       </div>
-    </div>
+  </div>
+  </div>
   </div>
   <!--Botones y Fotos-->
   <div class="container-fluid ">
@@ -64,7 +66,6 @@
       <div class="col-12 text-center">
         <ul class="nav nav
         -pills mb-3" id="pills-tab" role="tablist">
-          <!--fotos-->
           <li class="nav-item mx-auto me-1" role="presentation">
             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
               type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
@@ -82,68 +83,191 @@
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
           tabindex="0">
-          <div class="row justify-content-center">
-            <div class="col-4 overflow-hidden "><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200" /><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200 mt-4" /><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200 mt-4" /></div>
-            <div class="col-4 overflow-hidden"><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200" /><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200 mt-4" /><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200 mt-4" /></div>
-            <div class="col-4 overflow-hidden"><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200" /><img
-                src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2023-02/Cristiano_Ronaldo_celebrate_Al-Nassr_Al-Wehda_2023.jpg?h=920929c4&itok=piB9zyV3"
-                class="w-100 h-200 mt-4" /><img
-                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                class="w-100 h-200 mt-4" /></div>
+          <!--Linea de Tres Fotos-->
+          <div class="row mb-4">
+            <div class="col-4">
+              <img class="w-100 h-100"
+                src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100"
+                src="https://as2.ftcdn.net/v2/jpg/06/09/69/95/500_F_609699564_fWGED7K7kB2c6x4ekg294LhthbCqqDFA.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100"
+                src="https://www.planetsport.com/image-library/square/500/c/cristiano-ronaldo-portugal-5-june-2022.jpg" />
+            </div>
           </div>
-        </div>
+          <div class="row mb-4">
+            <div class="col-4">
+              <img class="w-100 h-100" src="https://i.pinimg.com/564x/4b/50/dd/4b50dd89f559179771be985b0b82d066.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100" src="https://i.pinimg.com/564x/4b/c9/a2/4bc9a2b1ccc0b16e5ee562e7796bcaea.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100" src="https://i1.sndcdn.com/artworks-000045667919-qtquf1-t500x500.jpg" />
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-4">
+              <img class="w-100 h-100" src="https://i.pinimg.com/564x/ac/a1/48/aca148f9392a0041a11e074fd51c7e6b.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100" src="https://www.hlasek.com/foto/macaca_nemestrina_be1881.jpg" />
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100"
+                src="https://img1.cgtrader.com/items/2843369/a57e5a10ee/large/interstellar-black-hole-animated-3d-model-a57e5a10ee.jpg" />
+            </div>
+          </div>
+        </div> <!--DIV CRUSIAL (MANTIENE EL TAP HIDE)-->
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-md-7 ">
                 <div class="d-flex justify-content-between">
-                  <h3 class>my dog beging happy.</h3>
-                <p class="">08/26</p>
+                  <h3>My dog beging happy.</h3>
+                  <p class="">08/26</p>
                 </div>
                 <div>
-                  <img class="w-100" src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"/>
+                  <img class="w-100"
+                    src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg" />
+                  <p class="mb-0 mt-3"><strong>207 Likes</strong></p>
+                  <p class="mt-0">Buscando un palo en el paque.</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-6 overflow-hidden justify-content-center d-flex flex-column mx-auto  "><img
-                  src="https://t1.ea.ltmcdn.com/es/posts/5/6/2/10_caracteristicas_de_los_perros_24265_600_square.jpg"
-                  class="w-100 h-100" />
-              </div>
-              <div class="row">
-                <div class="col-6 justify-content-center d-flex flex-column mx-auto">
-                  <p class="mb-0"><strong>2055 Likes</strong></p>
-                  <p class="mt-1">Hace muchisimo calor ultimamente.</p>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>A image from some game.</h3>
+                  <p>07/24</p>
+                </div>
+                <div>
+                  <img class="w-100"
+                    src="https://as2.ftcdn.net/v2/jpg/06/09/69/95/500_F_609699564_fWGED7K7kB2c6x4ekg294LhthbCqqDFA.jpg" />
+                  <p class="mb-0 mt-3"><strong>27 Likes</strong></p>
+                  <p class="mt-0">A pesar de ser un juego se ve bien.</p>
                 </div>
               </div>
             </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Cristiano is back!.</h3>
+                  <p>07/20</p>
+                </div>
+                <div>
+                  <img class="w-100"
+                    src="https://www.planetsport.com/image-library/square/500/c/cristiano-ronaldo-portugal-5-june-2022.jpg" />
+                  <p class="mb-0 mt-3"><strong>100.509 Likes</strong></p>
+                  <p class="mt-0">Critiano Ronaldo vuelve a jugar luego de una lesion de 3 meses.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Carpinchos</h3>
+                  <p>06/14</p>
+                </div>
+                <div>
+                  <img class="w-100" src="https://i.pinimg.com/564x/4b/50/dd/4b50dd89f559179771be985b0b82d066.jpg" />
+                  <p class="mb-0 mt-3"><strong>932 Likes</strong></p>
+                  <p class="mt-0">Son los animales mas amigables que existen!</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Michael Jackson The King of Pop.</h3>
+                  <p>06/01</p>
+                </div>
+                <div>
+                  <img class="w-100" src="https://i.pinimg.com/564x/4b/c9/a2/4bc9a2b1ccc0b16e5ee562e7796bcaea.jpg" />
+                  <p class="mb-0 mt-3"><strong>200.000 Likes</strong></p>
+                  <p class="mt-0">El artista más iconico de la historia.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Vinland Saga</h3>
+                  <p>06/01</p>
+                </div>
+                <div>
+                  <img class="w-100" src="https://i1.sndcdn.com/artworks-000045667919-qtquf1-t500x500.jpg" />
+                  <p class="mb-0 mt-3"><strong>34.987 Likes</strong></p>
+                  <p class="mt-0">Una historia sobre el camino del guerrero verdadero "Tu no tienes enemigos".</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Arthur Morgan</h3>
+                  <p>05/30</p>
+                </div>
+                <div>
+                  <img class="w-100" src="https://i.pinimg.com/564x/ac/a1/48/aca148f9392a0041a11e074fd51c7e6b.jpg" />
+                  <p class="mb-0 mt-3"><strong>62.838 Likes</strong></p>
+                  <p class="mt-0">Uno de los mejores protagonistas de los video juegos.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Macaco</h3>
+                  <p>05/20</p>
+                </div>
+                <div>
+                  <img class="w-100" src="https://www.hlasek.com/foto/macaca_nemestrina_be1881.jpg" />
+                  <p class="mb-0 mt-3"><strong>12.383 Likes</strong></p>
+                  <p class="mt-0">Un macaquiño salvaje ni mas ni menos.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-between">
+                  <h3>Black Holes</h3>
+                  <p>03/13</p>
+                </div>
+                <div>
+                  <img class="w-100"
+                    src="https://img1.cgtrader.com/items/2843369/a57e5a10ee/large/interstellar-black-hole-animated-3d-model-a57e5a10ee.jpg" />
+                  <p class="mb-0 mt-3"><strong>1.000.000 Likes</strong></p>
+                  <p class="mt-0"> Una de las mayores sino es que la mayor fuerza destructiva del universo.</p>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-        </div>
-        <!--div de cierre del conainer-->
+        </div> <!--div del tap hide-->
       </div>
+    </div>
 
 
-      <!-- JavaScript Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
-        integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+      integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
